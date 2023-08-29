@@ -1,4 +1,4 @@
 const lol = document.getElementById("hhh");
-lol.addEventListener('click', () => {
-    lol.classList.toogle("ccc");
+lol.addEventListener('click', (event) => {
+    event.target.classList.toggle("ccc");
 })
